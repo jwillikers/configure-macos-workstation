@@ -1,0 +1,46 @@
+= Configure macOS Workstation
+Jordan Williams <jordan@jwillikers.com>
+:icons: font
+
+This project contains `fish` shell scripts to install and configure a macOS workstation according to my preferences.
+
+== Prerequisites
+
+macOS:: macOS versions 10.14 Mojave and 10.15 Catalina later are currently targeted
+https://www.macports.org/[MacPorts]:: Find the MacPorts installation instructions https://www.macports.org/install.php[here].
+https://fishshell.com/[`fish`]:: Just install with MacPorts using `sudo port install fish`.
+
+== Usage
+
+Retrieve the shell scripts by cloning this repository.
+
+[source,sh]
+----
+➜ git clone git@github.com:jwillikers/configure-macos-workstation.git
+----
+
+Scripts can be executed individually or all at once with the `configure.fish` script.
+
+[source,sh]
+----
+➜ fish configure-macos-workstation/src/configure.fish
+----
+
+== Changelog
+
+See the link:changelog.adoc[Changelog].
+
+== Contributing
+
+This project is meant primarily for my own personal use.
+It contains my specific configuration preferences.
+For configuring your desired preferences, feel free to fork the project.
+That being said, contributions which otherwise improve the project are welcome.
+
+== Authors
+
+mailto:{email}[{author}]
+
+== License
+
+This project is licensed under the link:license.adoc[GPLv3].
